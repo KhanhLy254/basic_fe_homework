@@ -1,0 +1,121 @@
+body {
+    font-family: Inter;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header-container {
+    padding: 30px 0;
+}
+.header-left span{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+.header-left p {
+    letter-spacing: 1.5px;
+}
+.header-left,
+.header-right {
+    display: inline-block;
+}
+
+.header-left {
+    width: 50%;
+}
+
+.header-right {
+    width: 49%;
+    text-align: right;
+}
+.header-right ul {
+    list-style: none;
+}
+.header-right li {
+    display: inline-block;
+    color:#ffffff;
+    background-color: #F26464;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 23px;
+}
+.body-container {
+    font-size: 0; 
+}
+.body-left img {
+    width: 525px;
+    height: auto;
+}
+
+.body-left,
+.body-right {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.body-left {
+    width: 45%;
+}
+
+.body-right {
+    width: 55%;
+}
+.tab {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.tab li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.tab strong {
+    display: block;
+    color: #F26464;
+    font-size: 24px;
+}
+
+.tab span {
+    font-size: 14px;
+
+}
+.aboutme-section h2 {
+    margin-top: 50px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 3px solid #F26464;
+    padding-bottom: 5px;
+}
+
+.text {
+    color: #373737;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.button {
+    text-align: center;
+}
+.download-button {
+    display: inline-block;
+    margin-top: 30px;
+    color: #F26464;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 15px 25px;
+    border: 2px solid #F26464;
+    border-radius: 50px;
+}
