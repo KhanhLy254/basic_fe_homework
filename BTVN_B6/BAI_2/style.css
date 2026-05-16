@@ -1,0 +1,111 @@
+body {
+    background-color: #2f323a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+    color: #484B54;
+}
+.img1 {
+    opacity: 0.8;
+    position: relative;
+    left: -25px;
+    width: 500px;
+    height: 350px;
+    transition: all 0.25s linear;
+}
+.effect-lily {   
+    background-color: rgb(88, 88, 145);
+    position: relative;
+    width: 475px;
+    height: 350px;
+    overflow: hidden;
+}
+.effect-lily:hover .img1 {
+    opacity: 1;
+    left: 0;
+    
+}
+.text-box1 {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.text-box1 p {
+    visibility: hidden;
+}
+.effect-lily:hover .text-box1 p {
+    visibility: visible;
+    
+}
+.effect-lily:hover .text-box1 {
+    top: 200px;
+    left: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.text-box1 span {
+    font-weight:bold;
+}
+.text-box1 div {
+    font-size: 30px;
+}
+/* pic2 */
+.effect-sadie {
+    position: relative;
+    width: 475px;
+    height: 350px;
+    
+}
+.img2 {
+    width: 475px;
+    height: 350px;
+}
+.effect-sadie::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(224, 215, 228, 0), rgba(110, 88, 113, 0.7));
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.effect-sadie:hover::after {
+    opacity: 1;
+}
+.text-box2 div {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transition: all 0.25s ease;
+}
+.text-box2 div {
+    color: rgb(68, 65, 82) ;
+    font-size: 30px;
+}
+
+.text-box2 span {
+    font-weight: 700;
+}
+.text-box2 p {
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    transform: translateX(30%);
+    text-align: center;
+    top: 80%;
+    visibility: hidden;
+}
+.effect-sadie:hover .text-box2 div {
+    color: white;
+    top: 30%;
+}
+
+.effect-sadie:hover .text-box2 p {
+    visibility: visible;
+}
+
+
+
